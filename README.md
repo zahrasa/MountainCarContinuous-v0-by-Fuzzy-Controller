@@ -4,7 +4,7 @@
 The aim of this project was to get acquainted with the implementation of a complex Fuzzy controller system. We used the MountainCarContinuous-v0 environment here. For more information about this environment, refer to the following link:
 https://gym.openai.com/envs/MountainCarContinuous-v0
 
-This environment is a graphical environment in which a one-dimensional car is located between two hills. The goal is to reach the top of the hill on the right, but its engine is not strong enough to do it at once. Therefore, we have to move the car back and forth so that the car reaches the top of the hill on the right.
+This is a graphical environment in which a one-dimensional car is located between two hills. The goal is to reach the top of the hill on the right, but its engine is not strong enough to do it at once. Therefore, we have to move the car back and forth so that the car reaches the top of the hill on the right.
 
 <img src='https://github.com/zahrasa/MountainCarContinuous-v0-by-Fuzzy-Controller/blob/main/img/MountainCarContinuous-v0.gif' alt='car' width=300px>
 
