@@ -11,7 +11,17 @@ This environment is a graphical environment in which a one-dimensional car is lo
 
 As mentioned, the goal is to control the car with a fuzzy system to reach the top of the hill on the right.
 The car has two features in each state. The first feature is the location of the car, which varies from -1.2 to 0.6.
-The second feature is the car speed, which varies from -0.07 to 0.07. These two state attributes represent the car at each step. The goal is to place the car more than 0.45. In each step, an Action must be selected according to the state in which it is located. Action Here is a number between -1 to +1, which is the amount of force that will enter the car. The choice of this action should be based on a fuzzy control system. To design this system, we followed bellow steps:
+The second feature is the car speed, which varies from -0.07 to 0.07. These two state attributes represent the car at each step. The goal is to place the car more than 0.45. In each step, an Action must be selected according to the state in which it is located. Action Here is a number between -1 to +1, which is the amount of force that will enter the car. The choice of this action should be based on a fuzzy control system. 
+
+
+<img src='https://github.com/zahrasa/MountainCarContinuous-v0-by-fuzzy-controller/blob/main/img/position.png' alt='position' width=400px>
+
+<img src='https://github.com/zahrasa/MountainCarContinuous-v0-by-fuzzy-controller/blob/main/img/speed.png' alt='speed' width=400px>
+
+<img src='https://github.com/zahrasa/MountainCarContinuous-v0-by-fuzzy-controller/blob/main/img/force.png' alt='force' width=400px>
+
+
+Finally, to design this system, we followed bellow steps:
 
 
 1 - First run the gym open AI graphical environment.
@@ -27,6 +37,3 @@ The second feature is the car speed, which varies from -0.07 to 0.07. These two 
 6 - If the car does not reach the desired goal and the number of steps is less than a threshold e.g., 500, go to step 4.
 
 7 - Finally, show a graph of the rewards received in different stages.
-<img src='https://github.com/zahrasa/MountainCarContinuous-v0-by-fuzzy-controller/blob/main/img/force.png' alt='force' width=400px>
-<img src='https://github.com/zahrasa/MountainCarContinuous-v0-by-fuzzy-controller/blob/main/img/position.png' alt='position' width=400px>
-<img src='https://github.com/zahrasa/MountainCarContinuous-v0-by-fuzzy-controller/blob/main/img/speed.png' alt='speed' width=400px>
