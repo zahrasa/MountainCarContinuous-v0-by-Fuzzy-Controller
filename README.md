@@ -1,7 +1,7 @@
 # MountainCarContinuous-v0-by-fuzzy-controller
 (You may have trouble running this issue in Colab and running the graphical environment. Run it on your local system and in the Jupyter Notebook for convenience.)
 
-<img src='https://github.com/zahrasa/MountainCarContinuous-v0-by-fuzzy-controller/blob/main/img/MountainCarContinuousv0.png' alt='car' width=400px>
+<img src='https://github.com/zahrasa/MountainCarContinuous-v0-by-Fuzzy-Controller/blob/main/img/MountainCarContinuous-v0.gif' alt='car' width=300px>
 
 
 The aim of this project was to get acquainted with the implementation of a complex control system. We used the MountainCarContinuous-v0 environment here. For more information about this environment, refer to the following link:
