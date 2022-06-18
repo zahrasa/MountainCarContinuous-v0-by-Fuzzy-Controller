@@ -7,7 +7,7 @@
 <img src='https://github.com/zahrasa/MountainCarContinuous-v0-by-fuzzy-controller/blob/main/img/position.png' alt='position' width=400px>
 <img src='https://github.com/zahrasa/MountainCarContinuous-v0-by-fuzzy-controller/blob/main/img/speed.png' alt='speed' width=400px>
 
-Here we are going to get acquainted with the implementation of a complex control system. We will use the MountainCarContinuous-v0 environment here. For more information about this environment, refer to the following link:
+The aim of this project was to get acquainted with the implementation of a complex control system. We used the MountainCarContinuous-v0 environment here. For more information about this environment, refer to the following link:
 https://gym.openai.com/envs/MountainCarContinuous-v0
 
 This environment is a graphical environment in which a one-dimensional car is located between two hills. The goal is to reach the top of the hill on the right, but its engine is not strong enough to do it at once. Therefore, we have to move the car back and forth so that the car reaches the top of the hill on the right.
