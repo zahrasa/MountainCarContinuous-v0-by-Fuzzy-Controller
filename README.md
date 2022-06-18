@@ -14,9 +14,7 @@ This environment is a graphical environment in which a one-dimensional car is lo
 
 As mentioned, the goal is to control the car with a fuzzy system to reach the top of the hill on the right.
 The car has two features in each state. The first feature is the location of the car, which varies from -1.2 to 0.6.
-The second feature is the car speed, which varies from -0.07 to 0.07. These two state attributes represent the car at each step. The goal is to place the car more than 0.45.
-
-In each step, an Action must be selected according to the state in which it is located. Action Here is a number between -1 to +1, which is the amount of force that will enter the car. The choice of this action should be based on a fuzzy control system. To design this system, the following steps must be followed:
+The second feature is the car speed, which varies from -0.07 to 0.07. These two state attributes represent the car at each step. The goal is to place the car more than 0.45. In each step, an Action must be selected according to the state in which it is located. Action Here is a number between -1 to +1, which is the amount of force that will enter the car. The choice of this action should be based on a fuzzy control system. To design this system, the following steps must be followed:
 
 - We will use the scikit-fuzzy library to design this fuzzy control system.
 - The inputs here is the location and speed of the car. We need to define fuzzy intervals for these two inputs. Also, the output here is the force on the car, which is Action, for which we must define and implement intervals, too.
