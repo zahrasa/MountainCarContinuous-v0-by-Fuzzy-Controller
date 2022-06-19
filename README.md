@@ -17,7 +17,7 @@ The second feature is the car speed, which varies from -0.07 to 0.07. These two 
 Finally, to design this system, we followed bellow steps:
  
 
-1. First run the gym open AI graphical environment.
+1. First run the gym openai graphical environment.
 
 2. Define and implement the mentioned linguistic variables. We used the scikit-fuzzy library to design this fuzzy control system. The inputs here were the location and speed of the car. We defined fuzzy intervals for these two inputs. Also, the output here was the force on the car, which was the Action, for which we defined and implemented intervals, too.
 
